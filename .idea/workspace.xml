@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="939231e6-8f20-47e0-a43a-b8f5380597f7" name="Default Changelist" comment="" />
+    <list default="true" id="939231e6-8f20-47e0-a43a-b8f5380597f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,17 +24,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jCS3ixX62iKGhrvZj4G3djItiN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stalker-amazing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Универ/3 курс/ВТиЗИ/shelters-frontend" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,7 +57,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603306382352</updated>
-      <workItem from="1603306384898" duration="3726000" />
+      <workItem from="1603306384898" duration="4568000" />
+      <workItem from="1603361473191" duration="1289000" />
+      <workItem from="1603362794568" duration="1425000" />
+      <workItem from="1603379237128" duration="21000" />
+      <workItem from="1603393643239" duration="18816000" />
     </task>
     <servers />
   </component>
@@ -49,13 +69,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Inspections" timestamp="1603456322203">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1603456322203" />
     <state x="277" y="119" key="EditFileWatcherDialog" timestamp="1603308354957">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1603308354957" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603309652759">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603430590120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603309652759" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603430590120" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1603395458806">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603395458806" />
   </component>
 </project>
