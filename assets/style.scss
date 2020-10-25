@@ -8,13 +8,14 @@
   background-repeat: no-repeat;
   padding-bottom: 122px;
   min-height: 100vh;
+  z-index: -5;
   .header-navigation {
     display: flex;
     align-items: start;
     min-height: 160px;
     box-sizing: border-box;
     border-bottom: 1px solid transparent;
-    z-index: 5;
+    z-index: 10;
   }
   .header-content {
     display: flex;
@@ -109,11 +110,11 @@
     right: 0;
     left: 0;
     height: 100%;
-    background-image: url("images/banner.png");
+    background-image: url("images/banner.svg");
     background-size: 50%;
     background-position: 47vw center;
     background-repeat: no-repeat;
-    z-index: 3;
+    z-index: -1;
   }
   .header-banner {
     height: 100%;
@@ -179,11 +180,7 @@
           border-radius: 300px;
           button {
             margin-right: 18px;
-            width: 48px;
-            height: 48px;
-            border: none;
-            border-radius: 50%;
-            background-color: #EB3E2E;
+            @extend %btn-play;
           }
           .header-banner__content-buttons-more-title {
             display: flex;
@@ -235,6 +232,427 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+  .header-transition {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0) 0%, #0F0F0F 100%);
+  }
+}
+
+.description {
+  padding-top: 20px;
+  .description-post-1 {
+    margin-top: 20px;
+    position: relative;
+    height: 333px;
+    background-image: url("images/post 1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    .description-post-1__background {
+      position: absolute;
+      bottom: 0;
+      height: 301px;
+      width: 100%;
+      background: linear-gradient(90deg, #EB3E2E 0%, #EB3E2E 22%, rgba(235, 62, 46, 0) 80%);
+      border-radius: 6px;
+      .description-post-1__content {
+        margin-left: 100px;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Proxima Nova";
+        color: #F2F2F2;
+        .description-post-1__content-title {
+          font-weight: 900;
+          font-size: 54px;
+          margin-bottom: 24px;
+        }
+        .description-post-1__content-desc {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+  .description-post-2 {
+    margin-top: 20px;
+    height: 300px;
+    background-image: url("images/post 2.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    .description-post-2__background {
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, rgba(75, 116, 185, 0) 20%, #4B74B9 63%, #4B74B9 100%);
+      border-radius: 6px;
+      .description-post-2__content {
+        margin-left: 50%;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Proxima Nova";
+        color: #F2F2F2;
+        .description-post-2__content-title {
+          font-weight: 900;
+          font-size: 54px;
+          margin-bottom: 24px;
+        }
+        .description-post-2__content-desc {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+  .description-post-3 {
+    margin-top: 20px;
+    height: 300px;
+    background-image: url("images/post 3.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    .description-post-3__background {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(90deg, #EB3E2E 0%, #EB3E2E 20%, rgba(235, 62, 46, 0) 70%);
+      border-radius: 6px;
+      .description-post-3__volume-1 {
+        position: absolute;
+        top: 24px;
+        right: 502px;
+      }
+      .description-post-3__volume-2 {
+        position: absolute;
+        top: 30px;
+        right: 289px;
+      }
+      .description-post-3__volume-3 {
+        position: absolute;
+        top: 44px;
+        right: 160px;
+      }
+      .description-post-3__volume-4 {
+        position: absolute;
+        top: 72px;
+        right: 38px;
+      }
+      .description-post-3__content {
+        margin-left: 100px;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Proxima Nova";
+        color: #F2F2F2;
+        .description-post-3__content-title {
+          font-weight: 900;
+          font-size: 54px;
+          margin-bottom: 24px;
+        }
+        .description-post-3__content-desc {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+  .description-post-4 {
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+    background-color: #4B74B9;
+    border-radius: 6px;
+    .description-post-4__background-imposition {
+      height: 100%;
+      background-image: url("images/post 4.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      mix-blend-mode: multiply;
+    }
+    .description-post-4__background-gradient {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      background: linear-gradient(90deg, rgba(75, 116, 185, 0) 20%, #4B74B9 63%, #4B74B9 100%);
+      border-radius: 6px;
+      .description-post-4__car {
+        position: relative;
+        top: 50px;
+        left: 46px;
+      }
+      .description-post-4__content {
+        margin-left: 114px;
+        height: 100%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Proxima Nova";
+        color: #F2F2F2;
+        .description-post-4__content-title {
+          font-weight: 900;
+          font-size: 54px;
+          margin-bottom: 24px;
+        }
+        .description-post-4__content-desc {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+  .description-post-5 {
+    margin-top: 20px;
+    height: 300px;
+    background-color: #333333;
+    border-radius: 6px;
+    .description-post-5__background {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-image: url("images/post 5.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 6px;
+      .description-post-5__content {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Proxima Nova";
+        text-align: center;
+        color: #F2F2F2;
+        .description-post-5__content-title {
+          font-weight: 900;
+          font-size: 54px;
+          margin-bottom: 24px;
+        }
+        .description-post-5__content-desc {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+  .description-post-6 {
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+    background-color: #333333;
+    border-radius: 6px;
+    .description-post-6__background {
+      height: 100%;
+      width: 100%;
+      background-image: url("images/post 6.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: blur(9px);
+      border-radius: 6px;
+    }
+    .description-post-6__content {
+      position: absolute;
+      top: 0;
+      margin-left: 500px;
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: "Proxima Nova";
+      color: #F2F2F2;
+      .description-post-6__content-title {
+        font-weight: 900;
+        font-size: 54px;
+        margin-bottom: 24px;
+      }
+      .description-post-6__content-desc {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+      }
+    }
+  }
+}
+
+.overview {
+  margin-top: 108px;
+  .overview-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    color: #F2F2F2;
+    .overview-description {
+      position: relative;
+      .overview-description__img {
+        position: absolute;
+        left: 90px;
+        bottom: 27px;
+      }
+      .overview-description__title {
+        position: relative;
+        font-family: "Proxima Nova";
+        font-weight: 900;
+        font-size: 64px;
+        .overview-description__title-main {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        .overview-description__title-shadow {
+          height: 100%;
+          position: relative;
+          bottom: 30px;
+          right: 30px;
+          color: transparent;
+          -webkit-text-stroke: 1px rgba(242, 242, 242, 0.2);
+        }
+      }
+      .overview-description__note {
+        margin-top: 21px;
+        margin-bottom: 20px;
+        font-family: "Proxima Nova";
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    .overview-media-1 {
+      @extend %media-grid;
+      .overview-media-1__material-1 {
+        grid-column: span 1;
+        grid-row: span 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/media-1_material-1.png");
+        border-radius: 6px;
+        .overview-media-1__material-1-btn {
+          @extend %btn-play;
+        }
+      }
+      .overview-media-1__material-2 {
+        position: relative;
+        background-image: url("images/media-1_material-2.png");
+        border-radius: 6px;
+        .overview-media-1__material-2-hover {
+          @extend %media-hover;
+        }
+        &:hover .overview-media-1__material-2-hover{
+          display: block;
+        }
+      }
+      .overview-media-1__material-3 {
+        position: relative;
+        background-image: url("images/media-1_material-3.png");
+        border-radius: 6px;
+        .overview-media-1__material-3-hover {
+          @extend %media-hover;
+        }
+        &:hover .overview-media-1__material-3-hover{
+          display: block;
+        }
+      }
+    }
+    .overview-media-2 {
+      @extend %media-grid;
+      .overview-media-2__material-1 {
+        grid-column: span 1;
+        grid-row: span 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/media-2_material-1.png");
+        border-radius: 6px;
+        .overview-media-2__material-1-btn {
+          @extend %btn-play;
+        }
+      }
+      .overview-media-2__material-2 {
+        position: relative;
+        background-image: url("images/media-2_material-2.png");
+        border-radius: 6px;
+        .overview-media-2__material-2-hover {
+          @extend %media-hover;
+        }
+        &:hover .overview-media-2__material-2-hover{
+          display: block;
+        }
+      }
+      .overview-media-2__material-3 {
+        position: relative;
+        background-image: url("images/media-2_material-3.png");
+        border-radius: 6px;
+        .overview-media-2__material-3-hover {
+          @extend %media-hover;
+        }
+        &:hover .overview-media-2__material-3-hover{
+          display: block;
+        }
+      }
+    }
+    .overview-media-3 {
+      @extend %media-grid;
+      .overview-media-3__material-1 {
+        grid-column: span 1;
+        grid-row: span 2;
+        position: relative;
+        background-image: url("images/media-3_material-1.png");
+        border-radius: 6px;
+        .overview-media-3__material-1-hover {
+          @extend %media-hover;
+        }
+        &:hover .overview-media-3__material-1-hover{
+          display: block;
+        }
+      }
+      .overview-media-3__material-2 {
+        position: relative;
+        background-image: url("images/media-3_material-2.png");
+        border-radius: 6px;
+        .overview-media-3__material-2-hover {
+          @extend %media-hover;
+        }
+        &:hover .overview-media-3__material-2-hover{
+          display: block;
+        }
+      }
+      .overview-media-3__material-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/media-3_material-3.png");
+        border-radius: 6px;
+        .overview-media-3__material-2-btn {
+          @extend %btn-play;
         }
       }
     }
