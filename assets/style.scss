@@ -1349,24 +1349,20 @@
     .description-post-4__background-imposition {
       background-size: cover;
     }
-
     .description-post-4__background-gradient {
       width: 100%;
       flex-direction: column !important;
       align-items: flex-end;
       background: linear-gradient(180deg, rgba(75, 116, 185, 0) 20%, #4B74B9 63%, #4B74B9 100%) !important;
-
       .description-post-4__car {
         display: none;
       }
-
       .description-post-4__content {
         margin-right: 50px;
         float: right;
         text-align: right;
         width: 80% !important;
         justify-content: flex-end !important;
-
         .description-post-4__content-desc {
           margin-bottom: 40px;
         }
