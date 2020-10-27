@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="939231e6-8f20-47e0-a43a-b8f5380597f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.scss" afterDir="false" />
@@ -36,11 +37,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../анимации" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../amazingRP — копия" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Настя\Frontend\Projects\amazingRP\assets\images\icons" />
       <recent name="F:\Настя\Frontend\Projects\amazingRP\assets" />
     </key>
   </component>
@@ -59,7 +61,8 @@
       <workItem from="1603362794568" duration="1425000" />
       <workItem from="1603379237128" duration="21000" />
       <workItem from="1603393643239" duration="24979000" />
-      <workItem from="1603622803911" duration="25794000" />
+      <workItem from="1603622803911" duration="25927000" />
+      <workItem from="1603784392239" duration="21475000" />
     </task>
     <servers />
   </component>
@@ -71,14 +74,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1603456322203" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603793220940">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603793220940" />
     <state x="277" y="119" key="EditFileWatcherDialog" timestamp="1603308354957">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1603308354957" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603478382270">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1603799961828">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603478382270" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603799961828" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1603465811376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -87,13 +94,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1603632485527" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1603469375450">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1603795817672">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603469375450" />
-    <state x="303" y="1" key="search.everywhere.popup" timestamp="1603632481661">
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603795817672" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603808765346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603632481661" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603808765346" />
   </component>
 </project>
