@@ -310,7 +310,11 @@ body {
   transition: all 0.3s ease;
 }
 .banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-play:hover {
-  background-color: #ED5143;
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-play:active {
   position: relative;
@@ -325,22 +329,26 @@ body {
   height: 72px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 300px;
-}
-.banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more .banner-content__buttons-more-btn {
   cursor: pointer;
-  margin-left: 12px;
-  margin-right: 18px;
   -o-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more .banner-content__buttons-more-btn:hover {
-  background-color: #ED5143;
+.banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more:hover {
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
-.banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more .banner-content__buttons-more-btn:active {
+.banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more:active {
   position: relative;
   top: 1px;
+}
+.banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more .banner-content__buttons-more-btn {
+  margin-left: 12px;
+  margin-right: 18px;
 }
 .banner .banner-wrapper .banner-content .banner-content__buttons .banner-content__buttons-more .banner-content__buttons-more-title {
   display: flex;

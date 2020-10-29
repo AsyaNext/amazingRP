@@ -230,7 +230,7 @@
           cursor: pointer;
           @include transition(all 0.3s ease);
           &:hover {
-            background-color: #ED5143;
+            @include transform(scale(1.05))
           }
           &:active {
             position: relative;
@@ -246,19 +246,19 @@
           height: 72px;
           background-color: rgba(255, 255, 255, 0.1);
           border-radius: 300px;
+          cursor: pointer;
+          @include transition(all 0.3s ease);
+          &:hover {
+            @include transform(scale(1.05))
+          }
+          &:active {
+            position: relative;
+            top: 1px;
+          }
           .banner-content__buttons-more-btn {
-            cursor: pointer;
             margin-left: 12px;
             margin-right: 18px;
             @extend %btn-play;
-            @include transition(all 0.3s ease);
-            &:hover {
-              background-color: #ED5143;
-            }
-            &:active {
-              position: relative;
-              top: 1px;
-            }
           }
           .banner-content__buttons-more-title {
             display: flex;
