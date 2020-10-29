@@ -29,6 +29,19 @@ body {
   -webkit-text-stroke: 1px rgba(242, 242, 242, 0.2);
 }
 
+@mixin transform($property) {
+  -o-transform: $property;
+  -ms-transform: $property;
+  -moz-transform: $property;
+  -webkit-transform: $property;
+  transform: $property;
+}
+@mixin transition($property) {
+  -o-transition: $property;
+  -moz-transition: $property;
+  -webkit-transition: $property;
+  transition: $property;
+}
 %btn-play {
   background-image: url("images/icons/icon-play.svg");
   background-position: center;
