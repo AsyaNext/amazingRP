@@ -4,8 +4,15 @@
     <list default="true" id="939231e6-8f20-47e0-a43a-b8f5380597f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/post 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/post 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-1_material-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-1_material-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-1_material-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-2_material-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-2_material-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-2_material-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-3_material-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-3_material-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/media-3_material-3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.scss" afterDir="false" />
@@ -26,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +76,7 @@
       <workItem from="1603379237128" duration="21000" />
       <workItem from="1603393643239" duration="24979000" />
       <workItem from="1603622803911" duration="25927000" />
-      <workItem from="1603784392239" duration="70180000" />
+      <workItem from="1603784392239" duration="84030000" />
     </task>
     <servers />
   </component>
@@ -93,6 +100,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603872535962" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1603926503849">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1603926503849" />
+    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1603926505436">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1603926505436" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1603465811376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -101,6 +116,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1603632485527" />
+    <state x="424" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603926489371">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1603926489371" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1603795817672">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
