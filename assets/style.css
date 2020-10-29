@@ -732,10 +732,15 @@ body {
   position: relative;
   height: 100%;
   background-position: center;
+  background-size: 110%;
   border-radius: 6px;
+  -o-transition: background-size 0.3s ease;
+  -moz-transition: background-size 0.3s ease;
+  -webkit-transition: background-size 0.3s ease;
+  transition: background-size 0.3s ease;
 }
 .list-servers .list-servers-content .list-servers-content__places .list-servers-content__places-any:hover {
-  animation: scale-back 0.5s ease forwards;
+  background-size: 120%;
 }
 .list-servers .list-servers-content .list-servers-content__places .list-servers-content__places-any .list-servers-content__places-any-background {
   width: 100%;
@@ -1258,14 +1263,6 @@ body {
   background-image: url("images/icons/finish.svg");
 }
 
-@keyframes scale-back {
-  from {
-    background-size: 105%;
-  }
-  to {
-    background-size: 120%;
-  }
-}
 @media (max-width: 1370px) {
   .banner-content__background {
     position: absolute;

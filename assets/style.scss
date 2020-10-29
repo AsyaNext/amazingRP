@@ -642,9 +642,11 @@
         position: relative;
         height: 100%;
         background-position: center;
+        background-size: 110%;
         border-radius: 6px;
+        @include transition(background-size 0.3s ease);
         &:hover{
-          animation: scale-back .5s ease forwards;
+          background-size: 120%;
         }
         .list-servers-content__places-any-background {
           width: 100%;
@@ -1147,15 +1149,6 @@
     .modal-dialog__content-buttons-img {
       background-image: url("images/icons/finish.svg");
     }
-  }
-}
-
-@keyframes scale-back {
-  from {
-    background-size: 105%;
-  }
-  to {
-    background-size: 120%;
   }
 }
 
