@@ -664,18 +664,32 @@
         position: relative;
         height: 100%;
         background-position: center;
-        background-size: 110%;
+        background-size: cover;
         border-radius: 6px;
-        @include transition(background-size 0.3s ease);
-        &:hover{
-          background-size: 120%;
+        overflow: hidden;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          @include transition(all 0.3s ease);
+        }
+        &:hover::after {
+          @include transform(scale(1.1));
         }
         .list-servers-content__places-any-background {
+          position: relative;
           width: 100%;
           height: 100%;
           opacity: 0.1;
           background-position: center;
           border-radius: 6px;
+          z-index: 3;
         }
         .list-servers-content__places-any-desc {
           height: 100%;
@@ -685,6 +699,7 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          z-index: 5;
           .list-servers-content__places-any-desc-title {
             margin-top: 40px;
             margin-left: 40px;
@@ -752,7 +767,9 @@
       }
       .server-red {
         background-color: rgba(235, 62, 46, 0.1);
-        background-image: url("images/red-server.png");
+        &::after {
+          background-image: url("images/red-server.png");
+        }
         .list-servers-content__places-any-background {
           background: linear-gradient(180deg, rgba(235, 62, 46, 0) 0%, #EB3E2E 100%);
         }
@@ -767,7 +784,9 @@
       }
       .server-yellow {
         background-color: rgba(242, 201, 76, 0.1);
-        background-image: url("images/yellow-server.png");
+        &::after {
+          background-image: url("images/yellow-server.png");
+        }
         .list-servers-content__places-any-background {
           background: linear-gradient(180deg, rgba(242, 201, 76, 0) 0%, #F2C94C 100%);
         }
@@ -782,7 +801,9 @@
       }
       .server-green {
         background-color: rgba(39, 174, 96, 0.1);
-        background-image: url("images/green-server.png");
+        &::after {
+          background-image: url("images/green-server.png");
+        }
         .list-servers-content__places-any-background {
           background: linear-gradient(180deg, rgba(39, 174, 96, 0) 0%, #27AE60 100%);
         }
@@ -797,7 +818,9 @@
       }
       .server-azure {
         background-color: rgba(45, 156, 219, 0.1);
-        background-image: url("images/azure-server.png");
+        &::after {
+          background-image: url("images/azure-server.png");
+        }
         .list-servers-content__places-any-background {
           background: linear-gradient(180deg, rgba(45, 156, 219, 0) 0%, #2D9CDB 100%);
         }
@@ -812,7 +835,9 @@
       }
       .server-silver {
         background-color: rgba(224, 224, 224, 0.1);
-        background-image: url("images/silver-server.png");
+        &::after {
+          background-image: url("images/silver-server.png");
+        }
         .list-servers-content__places-any-background {
           background: linear-gradient(180deg, rgba(224, 224, 224, 0) 0%, #E0E0E0 100%);
         }
