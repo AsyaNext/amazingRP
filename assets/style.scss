@@ -379,7 +379,7 @@
     }
   }
   .post-1 {
-    height: 333px;
+    height: 351px;
     background-image: url("images/post 1.png");
     background-position: right;
     .description-post__background {
@@ -515,12 +515,31 @@
       grid-gap: 16px;
       .overview-media__material {
         position: relative;
-        background-size: cover;
-        background-position: center;
         border-radius: 6px;
+        cursor: pointer;
+        overflow: hidden;
         &:first-child {
           grid-column: span 1;
           grid-row: span 2;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          @include transition(all 0.3s ease);
+        }
+        &:hover::after {
+          @include transform(scale(1.1));
+        }
+        &:active {
+          position: relative;
+          top: 1px;
         }
       }
       .material-video {
@@ -529,9 +548,11 @@
         justify-content: center;
         align-items: center;
         .overview-media__material-imposition {
+          position: relative;
           cursor: pointer;
           @extend %btn-play;
           @include transition(all 0.3s ease);
+          z-index: 5;
           &:hover {
             background-color: #ED5143;
           }
@@ -553,36 +574,37 @@
           background-repeat: no-repeat;
           border-radius: 6px;
           display: none;
+          z-index: 5;
         }
         &:hover .overview-media__material-imposition{
           display: block;
         }
       }
-      .material-1 {
+      .material-1::after {
         background-image: url("images/material-1.png");
       }
-      .material-2 {
+      .material-2::after {
         background-image: url("images/material-2.png");
       }
-      .material-3 {
+      .material-3::after {
         background-image: url("images/material-3.png");
       }
-      .material-4 {
+      .material-4::after {
         background-image: url("images/material-4.png");
       }
-      .material-5 {
+      .material-5::after {
         background-image: url("images/material-5.png");
       }
-      .material-6 {
+      .material-6::after {
         background-image: url("images/material-6.png");
       }
-      .material-7 {
+      .material-7::after {
         background-image: url("images/material-7.png");
       }
-      .material-8 {
+      .material-8::after {
         background-image: url("images/material-8.png");
       }
-      .material-9 {
+      .material-9::after {
         background-image: url("images/material-9.png");
       }
     }
@@ -861,6 +883,15 @@
         flex-direction: column;
         justify-content: space-between;
         border-radius: 6px;
+        cursor: pointer;
+        @include transition(all 0.3s ease);
+        &:hover {
+          @include transform(scale(0.95));
+        }
+        &:active {
+          position: relative;
+          top: 1px;
+        }
         .community-content__networks-group-row {
           display: flex;
           flex-direction: row;
@@ -889,15 +920,6 @@
             width: 24px;
             height: 24px;
             background-image: url("images/icons/arrow-right.svg");
-            cursor: pointer;
-            @include transition(all 0.3s ease);
-            &:hover {
-              @include transform(scale(1.2))
-            }
-            &:active {
-              position: relative;
-              top: 1px;
-            }
           }
         }
       }
@@ -1122,6 +1144,15 @@
           letter-spacing: 0.1em;
           text-transform: uppercase;
           color: #F2F2F2;
+          cursor: pointer;
+          @include transition(all 0.3s ease);
+          &:hover {
+            @include transform(scale(1.05))
+          }
+          &:active {
+            position: relative;
+            top: 1px;
+          }
         }
       }
     }
