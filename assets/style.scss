@@ -23,11 +23,8 @@
       .header-content__navigation-desc {
         width: 134px;
         margin: 0 24px;
-        font-family: Roboto, sans-serif;
         font-weight: 300;
-        font-size: 14px;
         line-height: 18.2px;
-        color: #F2F2F2;
       }
       .header-content__navigation-btn {
         cursor: pointer;
@@ -39,10 +36,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: Roboto, sans-serif;
         font-weight: bold;
         font-size: 13px;
-        color: #F2F2F2;
         text-transform: uppercase;
         @include transition(all 0.3s ease);
         &:hover {
@@ -64,11 +59,10 @@
         .header-content__community-members-amount {
           display: flex;
           flex-direction: column;
-          font-family: Roboto, sans-serif;
           font-size: 18px;
-          color: #FFFFFF;
-          font-weight: normal;
+          color: white;
           span {
+            font-size: 18px;
             font-weight: bold;
           }
         }
@@ -77,10 +71,8 @@
           padding: 13px 10px;
           border: 2px solid rgba(255, 255, 255, 0.2);
           border-radius: 50%;
-          font-family: Roboto, sans-serif;
           font-size: 18px;
           font-weight: bold;
-          color: #F2F2F2;
         }
       }
       .header-content__community-online {
@@ -92,14 +84,14 @@
         flex-direction: column;
         align-items: center;
         clip-path: polygon(0 0, 136px 0, 136px 120px, 68px 157px, 0 120px);
-        font-family: Roboto, sans-serif;
-        color: #333333;
         .header-content__community-online-title {
+          color: #333333;
           text-transform: uppercase;
           font-weight: bold;
           font-size: 10px;
         }
         .header-content__community-online-number {
+          color: #333333;
           margin: 6px 0;
           font-weight: 900;
           font-size: 26px;
@@ -137,8 +129,6 @@
     padding-top: 24px;
     width: 100%;
     display: none;
-    font-family: Roboto, sans-serif;
-    font-weight: normal;
     .header-mobile__content-close {
       position: absolute;
       top: 20px;
@@ -156,8 +146,8 @@
     .header-mobile__content-navigation {
       margin-top: 20px;
       margin-left: 16px;
-      font-size: 18px;
       .header-mobile__content-navigation-item {
+        font-size: 18px;
         padding: 8px 16px;
         border: 1px solid #0F0F0F;
         border-radius: 6px;
@@ -183,7 +173,6 @@
       margin-top: 160px;
       display: flex;
       flex-direction: column;
-      color: #F2F2F2;
       z-index: 10;
       .banner-content__background {
         position: absolute;
@@ -195,16 +184,11 @@
         margin-top: 80px;
         width: 55%;
         position: relative;
-        font-family: Roboto, sans-serif;
-        font-weight: 900;
-        font-size: 64px;
       }
       .banner-content__desc{
         width: 50%;
         margin: 24px 0 36px 0;
-        font-family: Roboto, sans-serif;
         font-weight: 300;
-        font-size: 14px;
         line-height: 21px;
       }
       .banner-content__buttons {
@@ -221,12 +205,10 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          font-family: Roboto, sans-serif;
           font-weight: bold;
           font-size: 18px;
           letter-spacing: 2px;
           text-transform: uppercase;
-          color: #F2F2F2;
           cursor: pointer;
           @include transition(all 0.3s ease);
           &:hover {
@@ -264,12 +246,11 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            color: #FFFFFF;
-            font-family: Roboto, sans-serif;
+            color: white;
             font-size: 16px;
             line-height: 22px;
-            font-weight: normal;
             span {
+              font-size: 16px;
               font-weight: bold;
             }
           }
@@ -295,18 +276,16 @@
             margin-right: 14px;
           }
           .banner-subcontent__column-item-desc {
-            font-family: Roboto, sans-serif;
             line-height: 21px;
             .banner-subcontent__column-item-desc-award {
               font-weight: bold;
-              font-size: 14px;
-              color: #F2F2F2;
             }
             .banner-subcontent__column-item-desc-version {
               font-weight: 300;
               font-size: 12px;
               color: rgba(242, 242, 242, 0.4);
               span {
+                font-size: 12px;
                 text-transform: uppercase;
                 color: #F2C94C;
               }
@@ -364,28 +343,25 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      font-family: Roboto, sans-serif;
-      color: #F2F2F2;
       .description-post__content-title {
         font-weight: 900;
         font-size: 54px;
         margin-bottom: 24px;
       }
       .description-post__content-desc {
-        font-weight: normal;
         font-size: 18px;
         line-height: 29px;
       }
     }
   }
   .post-1 {
-    height: 351px;
+    height: 350px;
     background-image: url("images/post 1.png");
     background-position: right;
     .description-post__background {
       position: absolute;
       bottom: 0;
-      height: 301px;
+      height: 300px;
       background: linear-gradient(90deg, #EB3E2E 0%, #EB3E2E 22%, rgba(235, 62, 46, 0) 80%);
     }
     .description-post__content {
@@ -428,10 +404,12 @@
       flex-direction: row;
       background: linear-gradient(90deg, rgba(75, 116, 185, 0) 20%, #4B74B9 63%, #4B74B9 100%);
       .description-post__car {
+        height: 229px;
         position: relative;
-        top: 50px;
+        top: 87px;
         left: 46px;
         @include transition(all 0.3s ease);
+        z-index: 5;
         &:hover {
           @include transform(scale(1.1));
         }
@@ -480,7 +458,6 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
-    color: #F2F2F2;
     .overview-description {
       position: relative;
       .overview-description__img {
@@ -494,7 +471,6 @@
       }
       .overview-description__title {
         position: relative;
-        font-family: Roboto, sans-serif;
         font-weight: 900;
         font-size: 64px;
       }
@@ -502,9 +478,7 @@
         display: inline-block;
         margin-top: 21px;
         margin-bottom: 20px;
-        font-family: Roboto, sans-serif;
         font-weight: 300;
-        font-size: 14px;
         line-height: 20px;
       }
     }
@@ -518,6 +492,10 @@
         border-radius: 6px;
         cursor: pointer;
         overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         &:first-child {
           grid-column: span 1;
           grid-row: span 2;
@@ -541,12 +519,6 @@
           position: relative;
           top: 1px;
         }
-      }
-      .material-video {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         .overview-media__material-imposition {
           position: relative;
           cursor: pointer;
@@ -564,19 +536,10 @@
       }
       .material-img {
         .overview-media__material-imposition {
-          position:absolute;
-          top:0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(235, 62, 46, 0.9);
-          background-image: url("images/icons/icon-eye.svg");
-          background-position: center;
-          background-repeat: no-repeat;
-          border-radius: 6px;
           display: none;
-          z-index: 5;
+          background-image: url("images/icons/icon-eye.svg");
         }
-        &:hover .overview-media__material-imposition{
+        &:hover .overview-media__material-imposition {
           display: block;
         }
       }
@@ -638,7 +601,6 @@
     }
   }
   .list-servers-content {
-    color: #F2F2F2;
     .list-servers-content__title {
       margin-bottom: 48px;
       width: 100%;
@@ -647,7 +609,6 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      font-family: Roboto, sans-serif;
       font-weight: 900;
       font-size: 64px;
       .title-shadow {
@@ -703,7 +664,6 @@
           .list-servers-content__places-any-desc-title {
             margin-top: 40px;
             margin-left: 40px;
-            font-family: Roboto, sans-serif;
             font-weight: bold;
             font-size: 32px;
             text-transform: uppercase;
@@ -712,8 +672,6 @@
             position: relative;
             top: -4px;
             margin-left: 40px;
-            font-family: Roboto, sans-serif;
-            font-weight: normal;
             font-size: 18px;
             opacity: 0.4;
           }
@@ -723,8 +681,6 @@
             margin-left: 40px;
             padding: 5px 7px;
             border-radius: 6px;
-            font-family: Roboto, sans-serif;
-            font-weight: normal;
             font-size: 12px;
             text-transform: uppercase;
           }
@@ -735,10 +691,6 @@
             background: none;
             border: 1px solid #F2F2F2;
             border-radius: 6px;
-            color: #F2F2F2;
-            font-family: Roboto, sans-serif;
-            font-weight: bold;
-            font-size: 12px;
             text-transform: uppercase;
             cursor: pointer;
             @include transition(all 0.3s ease);
@@ -748,6 +700,10 @@
             &:active {
               position: relative;
               top: 1px;
+            }
+            .list-servers-content__places-any-desc-btn-text {
+              font-weight: bold;
+              font-size: 12px;
             }
             .list-servers-content__places-any-desc-btn-mobile {
               width: 24px;
@@ -775,7 +731,6 @@
         }
         .list-servers-content__places-any-desc-online {
           background-color: #EB3E2E;
-          color: #F2F2F2;
         }
         .list-servers-content__places-any-separator {
           background-color: #EB3E2E;
@@ -809,7 +764,6 @@
         }
         .list-servers-content__places-any-desc-online {
           background-color: #27AE60;
-          color: #F2F2F2;
         }
         .list-servers-content__places-any-separator {
           background: #27AE60;
@@ -826,7 +780,6 @@
         }
         .list-servers-content__places-any-desc-online {
           background-color: #2D9CDB;
-          color: #F2F2F2;
         }
         .list-servers-content__places-any-separator {
           background-color: #2D9CDB;
@@ -879,11 +832,9 @@
         position: absolute;
         top: 80px;
         left: -180px;
-        font-family: Roboto, sans-serif;
         font-weight: 900;
         font-size: 64px;
         text-transform: uppercase;
-        color: #F2F2F2;
         transform: rotate(-90deg);
         transform-origin: right top 0;
         padding-right: 40px;
@@ -922,22 +873,20 @@
           flex-direction: row;
           justify-content: space-between;
           align-items: flex-end;
+          color: white;
           &:first-child {
             align-items: flex-start;
           }
+          img {
+            width: 109px;
+          }
           .community-content__networks-group-row-annotation {
-            font-family: Roboto, sans-serif;
-            font-weight: normal;
-            font-size: 14px;
             line-height: 21px;
-            color: #FFFFFF;
           }
           .community-content__networks-group-row-members {
-            font-family: Roboto, sans-serif;
             font-size: 24px;
-            color: #FFFFFF;
-            font-weight: normal;
             span {
+              font-size: 24px;
               font-weight: bold;
             }
           }
@@ -979,13 +928,12 @@
     align-items: start;
     justify-content: space-between;
     .footer-navigation__logo {
+      width: 109px;
       margin-right: 150px;
     }
     .footer-navigation__navbar {
       position: relative;
       top: -6px;
-      font-family: Roboto, sans-serif;
-      font-weight: normal;
       font-size: 16px;
       color: #E0E0E0;
       div:not(:first-child) {
@@ -1054,11 +1002,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: end;
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    font-size: 14px;
     line-height: 22px;
     color: #E0E0E0;
+    div {
+      font-weight: 300;
+    }
     .footer-description__caption {
       position: absolute;
       right: 0;
@@ -1092,11 +1040,9 @@
       position: absolute;
       right: 0;
       top: -30px;
-      font-family: Roboto, sans-serif;
       font-weight: bold;
       font-size: 18px;
       line-height: 29px;
-      color: #F2F2F2;
       cursor: pointer;
     }
     .modal-dialog__header {
@@ -1110,22 +1056,18 @@
       align-items: center;
       justify-content: space-between;
       .modal-dialog__header-title {
-        font-family: Roboto, sans-serif;
         font-weight: 900;
         font-size: 34px;
-        color: #FFFFFF;
+        color: white;
       }
       .modal-dialog__header-counter {
         border: 1px solid #F2F2F2;
         box-sizing: border-box;
         border-radius: 300px;
         padding: 15px 18px;
-        font-family: Roboto, sans-serif;
-        font-weight: normal;
         font-size: 18px;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        color: #F2F2F2;
       }
     }
     .modal-dialog__content {
@@ -1136,15 +1078,12 @@
       flex-direction: column;
       justify-content: space-around;
       .modal-dialog__content-title {
-        font-family: Roboto, sans-serif;
         font-weight: 900;
         font-size: 44px;
         color: #333333;
       }
       .modal-dialog__content-caption {
         margin-top: 20px;
-        font-family: Roboto, sans-serif;
-        font-weight: normal;
         font-size: 18px;
         line-height: 29px;
         color: #333333;
@@ -1163,12 +1102,10 @@
           background: #EB3E2E;
           border: none;
           border-radius: 6px;
-          font-family: Roboto, sans-serif;
           font-weight: bold;
           font-size: 16px;
           letter-spacing: 0.1em;
           text-transform: uppercase;
-          color: #F2F2F2;
           cursor: pointer;
           @include transition(all 0.3s ease);
           &:hover {
@@ -1299,9 +1236,9 @@
   .post-4 {
     .description-post__car {
       position: relative;
-      top: 130px !important;
+      top: 120px !important;
       left: 20px !important;
-      height: 60%;
+      height: 193px !important;
     }
     .description-post__content {
       margin-left: 34px !important;
@@ -1318,13 +1255,6 @@
       }
     }
     .list-servers-content {
-      .list-servers-content__title {
-        font-size: 48px;
-        .title-shadow {
-          right: 0 !important;
-          bottom: 20px !important;
-        }
-      }
       .list-servers-content__places {
         width: 100%;
         height: auto !important;
@@ -1543,7 +1473,11 @@
 }
 
 @media (max-width: 600px) {
+  .title-main {
+    font-size: 48px;
+  }
   .title-shadow {
+    font-size: 48px;
     position: relative;
     bottom: 20px !important;
     right: 20px !important;
@@ -1557,7 +1491,6 @@
     height: 400px !important;
   }
   .banner-content__title {
-    font-size: 48px;
     width: 80% !important;
   }
   .banner-content__buttons {
@@ -1629,17 +1562,17 @@
   }
   .overview {
     .overview-content {
-      .overview-description {
-        .overview-description__title {
-          font-size: 48px;
-          .overview-description__title-shadow {
-            bottom: 20px !important;
-            right: 20px !important;
-          }
-        }
-      }
       .overview-media {
         grid-template-rows: repeat(3, 300px);
+      }
+    }
+  }
+  .list-servers {
+    .list-servers-content__title {
+      .title-shadow {
+        position: relative;
+        right: 0 !important;
+        bottom: 20px !important;
       }
     }
   }
@@ -1649,7 +1582,6 @@
         .community-content__title {
           margin-top: 48px;
           margin-left: 50px;
-          font-size: 48px;
         }
       }
       .community-content__networks {
@@ -1661,11 +1593,6 @@
             .community-content__networks-group-row-members {
               display: none;
             }
-            //.community-content__networks-group-row-btn {
-            //  position: absolute;
-            //  bottom: 65%;
-            //  right: -10px;
-            //}
             .community-content__networks-group-row-btn {
               position: absolute;
               bottom: -10px;
@@ -1695,6 +1622,9 @@
 }
 
 @media (max-width: 420px) {
+  .title-main, .title-shadow {
+    font-size: 36px !important;
+  }
   .post-1 {
     height: 265px !important;
   }
@@ -1702,9 +1632,6 @@
     .description-post__content {
       width: 90% !important;
     }
-  }
-  .banner-content__title {
-    font-size: 36px !important;
   }
   .banner-content__background {
     width: 285px !important;
@@ -1716,21 +1643,12 @@
         grid-template-rows: repeat(3, 200px);
       }
     }
-    .overview-description__title {
-      font-size: 36px !important;
-    }
   }
   .list-servers-content__places-any-desc-title {
     margin-top: 0 !important;
   }
   .list-servers-content__places-any-desc-online {
     display: none !important;
-  }
-  .list-servers-content__title {
-    font-size: 36px !important;
-  }
-  .community-content__title {
-    font-size: 36px !important;
   }
   .modal-dialog {
     height: 90% !important;
