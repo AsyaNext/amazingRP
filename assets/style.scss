@@ -1182,22 +1182,23 @@
       .community-content__img {
         display: none !important;
       }
+      //.community-content__img {
+      //  left: -220px;
+      //}
 
       .community-content__description {
-        width: 50%;
+        width: 100%;
+        height: 0;
 
         .community-content__title {
-          position: relative !important;
-          top: 0;
-          right: 0 !important;
-          left: 0;
-          transform: rotate(0) !important;
-          margin-bottom: 24px;
+          position: relative;
+          top: 20px;
+          left: -280px !important;
         }
       }
 
       .community-content__networks {
-        width: 100% !important;
+        width: 70%;
       }
     }
   }
@@ -1227,6 +1228,21 @@
     max-width: 100% !important;
     justify-content: center;
   }
+  .post-4 {
+    .description-post__car {
+      position: relative;
+      top: 100px;
+      left: 20px !important;
+    }
+    .description-post__content {
+      margin-left: 34px !important;
+      width: 70% !important;
+    }
+  }
+  .community-content__title {
+    position: relative;
+    top: 40px !important;
+  }
   .footer-navigation__logo {
     margin-right: 50px !important;
   }
@@ -1237,12 +1253,7 @@
     .description-post__car {
       position: relative;
       top: 120px !important;
-      left: 20px !important;
       height: 193px !important;
-    }
-    .description-post__content {
-      margin-left: 34px !important;
-      width: 70% !important;
     }
   }
   .list-servers {
@@ -1306,6 +1317,22 @@
       }
     }
   }
+  .community-content__description {
+    width: 35% !important;
+    height: 200px !important;
+
+    .community-content__title {
+      position: relative !important;
+      top: 0;
+      left: 0 !important;
+      right: 0 !important;
+      transform: rotate(0) !important;
+      margin-bottom: 24px;
+    }
+  }
+  .community-content__networks {
+    width: 100% !important;
+  }
   .footer {
     height: auto !important;
     .footer-navigation {
@@ -1331,7 +1358,16 @@
     }
   }
 }
-
+@media (max-width: 840px) {
+  .post-4 {
+    .description-post__car {
+      height: 143px !important;
+    }
+    .description-post__content {
+      width: 80% !important;
+    }
+  }
+}
 @media (max-width: 770px) {
   .description-post__content {
     width: 80%;
@@ -1635,6 +1671,9 @@
   .list-servers-content__places-any-desc-online {
     display: none !important;
   }
+  .community-content__description {
+    width: 10% !important;
+  }
   .modal-dialog {
     height: 90% !important;
     .modal-dialog__header {
@@ -1677,9 +1716,6 @@
       line-height: 24px !important;
     }
   }
-  .community-content__description {
-    width: 40% !important;
-  }
   .footer-navigation__networks {
     display: grid;
     grid-template-rows: repeat(2, 70px) !important;
@@ -1694,5 +1730,11 @@
   .third-dialog .modal-dialog__content-buttons {
     flex-direction: row;
     align-items: flex-end;
+  }
+}
+
+@media (max-width: 310px) {
+  .community-content__description {
+    width: 0% !important;
   }
 }
