@@ -1605,7 +1605,7 @@ body {
     right: 20px !important;
   }
 
-  .banner-content__desc {
+  .banner-content__title, .banner-content__desc {
     width: 80% !important;
   }
 
@@ -1613,10 +1613,6 @@ body {
     margin-right: 40px;
     width: 380px !important;
     height: 400px !important;
-  }
-
-  .banner-content__title {
-    width: 80% !important;
   }
 
   .banner-content__buttons {
@@ -1647,33 +1643,22 @@ body {
     font-size: 14px !important;
   }
 
-  .post-1 .description-post__content {
+  .post-1 .description-post__content, .post-3 .description-post__content {
     margin-left: 20px !important;
   }
-  .post-1 .description-post__content .description-post__content-desc {
+  .post-1 .description-post__content .description-post__content-desc, .post-3 .description-post__content .description-post__content-desc {
     margin-bottom: 20px !important;
   }
 
-  .post-2 .description-post__content {
+  .post-2 .description-post__content, .post-4 .description-post__content {
     margin-right: 20px !important;
   }
-  .post-2 .description-post__content .description-post__content-desc {
-    margin-bottom: 20px !important;
-  }
-
-  .post-3 .description-post__content {
-    margin-left: 20px !important;
-  }
-  .post-3 .description-post__content .description-post__content-desc {
+  .post-2 .description-post__content .description-post__content-desc, .post-4 .description-post__content .description-post__content-desc {
     margin-bottom: 20px !important;
   }
 
   .post-4 .description-post__content {
     margin-left: 0 !important;
-    margin-right: 20px !important;
-  }
-  .post-4 .description-post__content .description-post__content-desc {
-    margin-bottom: 20px !important;
   }
 
   .post-6 .description-post__content {
