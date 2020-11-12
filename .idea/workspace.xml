@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="939231e6-8f20-47e0-a43a-b8f5380597f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +77,9 @@
       <workItem from="1604416765296" duration="2752000" />
       <workItem from="1604503292544" duration="745000" />
       <workItem from="1604946727688" duration="846000" />
+      <workItem from="1605112687994" duration="676000" />
+      <workItem from="1605167848801" duration="49000" />
+      <workItem from="1605170596674" duration="1510000" />
     </task>
     <servers />
   </component>
@@ -92,10 +99,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="277" y="119" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1603308354957" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1604397432024">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605167895921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604397432024" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605167895921" />
     <state x="121" y="51" key="MergeDialog" timestamp="1603926503849">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
